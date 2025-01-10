@@ -20,14 +20,19 @@ The new types of metrics are:
 - **Multiple Choice Perplexity**: the PPL value is calculated for the correct and incorrect answers in the dataset. The answer with the lowest PPL value is deemed the one the system would most likely answer. If the answer is not the correct one from the dataset, the model does not pontuate.
 
 ## Experiment 1: Choosing the best model combination for the assistant
+![scores_exp1](https://github.com/user-attachments/assets/760c9fb6-3ce6-4288-a9f0-117b1267d31e)
 
 ## Experiment 1.1: Choosing the best parametrization for the context initialization
+![scores_exp1_1](https://github.com/user-attachments/assets/d32e0dd9-9e3a-4270-8b25-4187affc0fed)
 
 ## Experiment 1.2: Choosing the best parametrization for the search
+![scores_exp1_2](https://github.com/user-attachments/assets/f7b798c5-2a7e-4165-a627-e475c2e6d223)
 
 ## Experiment 2: Analyzing the efficiency of the summary extension
+![scores_exp2](https://github.com/user-attachments/assets/d0f1e3eb-c69b-46df-8725-dc56173243cf)
 
 ## Experiment 3: Final Experiment
+![scores_exp3](https://github.com/user-attachments/assets/f5fddef8-05c3-48fa-b37c-ad3d437d2f9e)
 
 # References
 <a id="1">[1]</a>
