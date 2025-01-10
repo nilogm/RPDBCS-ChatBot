@@ -22,6 +22,8 @@ The new types of metrics are:
 - **BERTScore Multiple Choice Recall/Precision/F1**: the system-generated answer and the wrong answers are compared to the correct answer using BERTScore. The highest scoring answer is the one closest to the "Correct Answer" in the dataset. If this answer is not the assistant-generated one, the configuration set does not score.
 - **Multiple Choice Perplexity**: the PPL value is calculated for the correct and incorrect answers in the dataset. The answer with the lowest PPL value is deemed the one the assistant would most likely answer. If the answer is not the "Correct Answer" from the dataset, the configuration set does not score.
 
+Hopefully, the figures shown below can display the limitations of the metrics in this paper's problem, as results are inconclusive (as there isn't a clear best configuration set upon analysis). Therefore, the handmade analysis was preferred, even if a greedy approach had to be done.
+
 ## Experiment 1: Choosing the best model combination for the assistant
 ![scores_exp1](https://github.com/user-attachments/assets/760c9fb6-3ce6-4288-a9f0-117b1267d31e)
 
