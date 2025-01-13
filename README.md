@@ -5,4 +5,5 @@ This is a repository which contains the supplementary material for the article. 
 
 Additionally, a video demonstrating the virtual assistant's interface inside the software, showing the chat window and action suggestion feature, can be seen below:
 
-https://github.com/user-attachments/assets/11680299-3f0f-4723-948a-8d05a5f1582e
+https://github.com/user-attachments/assets/7f829737-d507-4154-b8e1-63ce576bd182
+
