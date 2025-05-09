@@ -71,7 +71,7 @@ Each action item is presented in the following JSON format ```{"name": token_nam
 ## Summary Generation
 > Você vai receber um trecho de texto. Resuma o conteúdo do texto em um breve parágrafo e coloque o texto entre \<summary> e \</summary>. <br>
 > Por favor, mantenha a informação que está contida no texto original e não referencie o texto ou suas seções. <br>
-> Se houver um código "<fig />" no contexto, SEMPRE coloque o código após referenciar a palavra que precede o código. <br>
+> Se houver um código "\<fig />" no contexto, SEMPRE coloque o código após referenciar a palavra que precede o código. <br>
 > Todo resumo deve ser completo e independente do texto, de forma que uma pessoa possa entender o que está sendo descrito sem precisar ler o texto original (por exemplo, não faça resumos com "leia a seção x para mais informações"). <br>
 > Não interaja com o usuário e nem com o sistema e não fale o que você está fazendo, somente resuma o texto. <br>
 > 
@@ -84,7 +84,7 @@ Which roughly translates to:
 
 > You'll receive a text excerpt. Summarize the content of the text in a short paragraph and put the text between \<summary> and \</summary>. <br>
 > Please, maintain the information contained on the original text and do not reference the text or its sections. <br>
-> If there is a "<fig />" code in the context, ALWAYS put the code after referencing the word which preceeds the code. <br>
+> If there is a "\<fig />" code in the context, ALWAYS put the code after referencing the word which preceeds the code. <br>
 > All sumaries must be complete and independent from the text, in a way that someone could understand what is being described without needing to read the original text (for instance, do not make summaries such as "read section x for more information"). <br>
 > Do not interact with the user or the system and do not mention what you are doing, only summarize the text. <br>
 > 
