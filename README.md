@@ -16,7 +16,7 @@ Specifics:
 
 This work uses the SentenceTransformer class from the SentenceTransformers library [[1]](#1) for loading the chunk and query encoders and CrossEncoder for reranker models.
 Database vector retrieval uses FAISS [[2]](#2), which quickly retrieves the $k$-closest items due to algorithms being executed on the GPU.
-Lastly, the transformers library [[3]](#3) was used to load the models, and BitsAndBytes [[4]](#4) was used to quantize models.
+Lastly, the transformers library [[3]](#3) was used to load the models.
 
 ## References
 <a id="1">[1]</a> 
@@ -30,11 +30,6 @@ Proceedings of the 2019 Conference on Empirical Methods in Natural Language Proc
 IEEE Transactions on Big Data, 7(3). 535-547.](10.1109/TBDATA.2019.2921572)
 
 <a id="3">[3]</a> 
-[Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Rémi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush (2020),
-"Transformers: State-of-the-Art Natural Language Processing"
-Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 38-45](https://www.aclweb.org/anthology/2020.emnlp-demos.6)
-
-<a id="4">[4]</a> 
 [Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Rémi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush (2020),
 "Transformers: State-of-the-Art Natural Language Processing"
 Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 38-45](https://www.aclweb.org/anthology/2020.emnlp-demos.6)
